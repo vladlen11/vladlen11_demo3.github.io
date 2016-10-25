@@ -169,6 +169,22 @@
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
+	.header .header_txt p {
+		position: relative;
+		font-family: "PT Serif",serif;
+		font-size: 25px;
+		color: #fff;
+		height: 100px;
+		word-spacing: -1px;
+		text-align: left;
+	}
+	.header .content_txt h2 {
+	    color: #0F5787;
+	    font-size: 44px;
+	}
+	.enjoy h4{
+		font-size: 23px;
+	}
 
 }
 
