@@ -139,14 +139,31 @@
 	.header_logo img{
 		width: auto;
 	}
-	.header_txt p {
+	.header .header_txt p {
 		position: relative;
 		font-family: "PT Serif",serif;
 		font-size: 28px;
 		color: #fff;
 		height: 100px;
 		word-spacing: -1px;
-		text-align: left;}
+		text-align: left;
+	}
+	nav a {
+		color: #fff;
+		display: inline-block;
+		font-family: Decima Nova Pro;
+		font-size: 11px;
+		line-height: 56px;
+		text-decoration: none;
+		transition: all 0.3s ease 0s;
+		width: auto;
+		height: 55px;
+		padding: 0px 10px;
+		float: left;
+	}
+	.content_txt::after{
+		display: none;
+	}
 
 }
 
